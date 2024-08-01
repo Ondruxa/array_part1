@@ -14,13 +14,7 @@ public class Main {
 
         //task2
         System.out.println("task2");
-        for (int elementArrayInt = 0; elementArrayInt < arrayInt.length; elementArrayInt++) {
-            if (elementArrayInt == arrayInt.length - 1) {
-                System.out.println(arrayInt[elementArrayInt]);
-                break;
-            }
-            System.out.print(arrayInt[elementArrayInt] + " ");
-        }
+        System.out.println(Arrays.toString(arrayInt));
         System.out.println(Arrays.toString(arrayDouble));
         System.out.println(Arrays.toString(arrayFloat));
 
